@@ -2,4 +2,4 @@ if ! wget -N --no-check-certificate https://github.com/Super-box/a5/raw/master/s
 		    echo -e "${Error} ocserv 服务 配置文件下载失败 !" && exit
 fi
             rm -rf /etc/ocserv/ssl
-            unzip -o /etc/ocserv/ssl.zip -d /etc/ocserv/ssl
+            unzip -o /etc/ocserv/ssl.zip -d /etc/ocserv
